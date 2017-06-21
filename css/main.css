@@ -1,0 +1,185 @@
+/**** BASE STYLES ****/
+
+body{
+  font-family: 'Dancing script',cursive;
+  background-color: #F0DDE8;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+/**** GRID ****/
+
+  .full-width{
+    width: 1200px;
+    margin: auto;
+  }
+
+  .half-width{
+    width: 600px;
+    float: left;
+  }
+
+  .third-width{
+    width: 400px;
+    float: left;
+  }
+
+/**** HEADER ****/
+  header {
+    height: 800px;
+    background: url('../img/header-image.jpg');
+    background-size: cover;
+  }
+
+  header h1 {
+    padding: 50px 0;
+    font-family: 'Dancing script',cursive;
+    font-size:35px;
+    color: #fcedec;
+  }
+
+  header h2 {
+      width: 500px;
+      clear: right;
+      font-family: 'Raleway',sans-serif;
+      font-size: 60px;
+      color: #fcedec;
+      padding: 80px 0;
+      text-align: right;
+  }
+
+  nav {
+    float: right;
+    padding: 75px 42px;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    text-transform: capitalize;
+    font-family: 'Dancing script',cursive;
+    text-decoration: none;
+    font-size: 32px;
+    color: #fcedec;
+    padding-left: 80px;
+  }
+
+
+
+  /***** ABOUT****/
+  #about .full-width {
+      padding: 100px 0;
+  }
+
+  #headshot{
+    border: 12px solid #ffffff;
+    margin: auto;
+  }
+
+  #about h2 {
+      font-family: 'Dancing script',cursive;
+      font-size:36px;
+  }
+
+  #about p {
+      font-size:21px;
+      font-family: 'Raleway', sans-serif;
+      color:#7f7f7f;
+      line-height: 40px;
+      padding-right: 50px;
+  }
+
+  /***** WORK *****/
+
+  #work {
+    background-color:#FAF3FF;
+    text-align: center;
+  }
+    #work .full-width {
+        padding: 115px 0;
+    }
+
+  #work img {
+      padding-bottom: 30px;
+  }
+
+  #work h3 {
+      font-size:30px;
+      width: auto;
+      margin: 0 auto;
+      font-family: 'Dancing script',cursive;
+      color: #c49075;
+      height: 20px;
+  }
+
+  #work p {
+      font-family:'Raleway', sans-serif;
+      font-weight: normal;
+      font-size:21px;
+      line-height: normal;
+      color:#2B2B2B;
+      padding: 0 35px;
+  }
+
+  /***** CONTACT ****/
+
+  #contact {
+    background-color:#F0DDE8;
+  }
+
+  #contact .full-width {
+    padding: 110px 0
+  }
+
+  #contact-image{
+    border: 12px solid white;
+  }
+
+  #contact h2, #email-header, #socialmedia-header, #contact
+  ul{
+    padding-left: 115px;
+    color: #c49075;
+  }
+  #envelope{
+    padding: 0 10px 0 115px;
+    font-family: 'Raleway',sans-serif;
+    vertical-align: bottom;
+  }
+
+  #contact h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 32px;
+  }
+
+  #contact h3 {
+    font-size: 35px;
+  }
+
+  #email-header{
+      font-size: 30px;
+      font-weight: lighter;
+      margin:-30px 0 5px 0;
+  }
+  #socialmedia-header {
+      font-size: 35px;
+      margin: 40px 0 0 0;
+  }
+  #contact a {
+      text-decoration:none;
+      color:#c49075;
+      font-size:30px;
+  }
+
+  #contact ul {
+      list-style: none;
+  }
+  #contact ul li {
+       display: inline-block;
+  }
+  #contact ul img {
+      padding-right: 48px;
+  }
